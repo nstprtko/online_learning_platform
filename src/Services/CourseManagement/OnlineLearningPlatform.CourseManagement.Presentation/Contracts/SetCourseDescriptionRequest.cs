@@ -1,0 +1,3 @@
+namespace OnlineLearningPlatform.CourseManagement.Presentation.Contracts;
+
+public sealed record SetCourseDescriptionRequest(string Description);
