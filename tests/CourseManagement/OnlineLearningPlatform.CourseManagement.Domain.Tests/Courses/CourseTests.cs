@@ -70,4 +70,17 @@ public class CourseTests
 
         Assert.False(course.IsPublished);
     }
+    [Fact]
+public void PublishCourse_WhenAlreadyPublished_ShouldThrowException()
+{
+    var course = new Course("C# Fundamentals");
+
+    course.SetDescription("An introductory C# course.");
+    course.AddContent(new CourseContent("Introduction"));
+    course.Publish();
+
+    Assert.Throws<CourseCannotBePublishedException>(
+        () => course.Publish());
 }
+}
+
