@@ -1,23 +1,25 @@
+using OnlineLearningPlatform.CourseCatalog.Application.Catalog;
+using OnlineLearningPlatform.CourseCatalog.Application.Interfaces;
+using OnlineLearningPlatform.CourseCatalog.Presentation.Infrastructure;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
+
+builder.Services.AddSingleton<ICourseListingRepository, InMemoryCourseListingRepository>();
+
+builder.Services.AddScoped<CreateCourseListingService>();
+builder.Services.AddScoped<SearchCoursesService>();
+builder.Services.AddScoped<ToggleCourseFavouriteService>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
-{
     app.MapOpenApi();
-}
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();
