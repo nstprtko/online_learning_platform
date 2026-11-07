@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "OnlineLearningPlatform.Enrollment.Application/1.0.0": {
+        "dependencies": {
+          "OnlineLearningPlatform.Enrollment.Domain": "1.0.0"
+        },
+        "runtime": {
+          "OnlineLearningPlatform.Enrollment.Application.dll": {}
+        }
+      },
+      "OnlineLearningPlatform.Enrollment.Domain/1.0.0": {
+        "runtime": {
+          "OnlineLearningPlatform.Enrollment.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OnlineLearningPlatform.Enrollment.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OnlineLearningPlatform.Enrollment.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

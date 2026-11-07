@@ -1,0 +1,16 @@
+/workspaces/online_learning_platform/src/Services/Enrollment/OnlineLearningPlatform.Enrollment.Application/bin/Debug/net10.0/OnlineLearningPlatform.Enrollment.Application.deps.json
+/workspaces/online_learning_platform/src/Services/Enrollment/OnlineLearningPlatform.Enrollment.Application/bin/Debug/net10.0/OnlineLearningPlatform.Enrollment.Application.dll
+/workspaces/online_learning_platform/src/Services/Enrollment/OnlineLearningPlatform.Enrollment.Application/bin/Debug/net10.0/OnlineLearningPlatform.Enrollment.Application.pdb
+/workspaces/online_learning_platform/src/Services/Enrollment/OnlineLearningPlatform.Enrollment.Application/bin/Debug/net10.0/OnlineLearningPlatform.Enrollment.Domain.dll
+/workspaces/online_learning_platform/src/Services/Enrollment/OnlineLearningPlatform.Enrollment.Application/bin/Debug/net10.0/OnlineLearningPlatform.Enrollment.Domain.pdb
+/workspaces/online_learning_platform/src/Services/Enrollment/OnlineLearningPlatform.Enrollment.Application/obj/Debug/net10.0/OnlineLearningPlatform.Enrollment.Application.csproj.AssemblyReference.cache
+/workspaces/online_learning_platform/src/Services/Enrollment/OnlineLearningPlatform.Enrollment.Application/obj/Debug/net10.0/OnlineLearningPlatform.Enrollment.Application.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/online_learning_platform/src/Services/Enrollment/OnlineLearningPlatform.Enrollment.Application/obj/Debug/net10.0/OnlineLearningPlatform.Enrollment.Application.AssemblyInfoInputs.cache
+/workspaces/online_learning_platform/src/Services/Enrollment/OnlineLearningPlatform.Enrollment.Application/obj/Debug/net10.0/OnlineLearningPlatform.Enrollment.Application.AssemblyInfo.cs
+/workspaces/online_learning_platform/src/Services/Enrollment/OnlineLearningPlatform.Enrollment.Application/obj/Debug/net10.0/OnlineLearningPlatform.Enrollment.Application.csproj.CoreCompileInputs.cache
+/workspaces/online_learning_platform/src/Services/Enrollment/OnlineLearningPlatform.Enrollment.Application/obj/Debug/net10.0/OnlineLearningPlatform.Enrollment.Application.sourcelink.json
+/workspaces/online_learning_platform/src/Services/Enrollment/OnlineLearningPlatform.Enrollment.Application/obj/Debug/net10.0/OnlineLe.68D8A274.Up2Date
+/workspaces/online_learning_platform/src/Services/Enrollment/OnlineLearningPlatform.Enrollment.Application/obj/Debug/net10.0/OnlineLearningPlatform.Enrollment.Application.dll
+/workspaces/online_learning_platform/src/Services/Enrollment/OnlineLearningPlatform.Enrollment.Application/obj/Debug/net10.0/refint/OnlineLearningPlatform.Enrollment.Application.dll
+/workspaces/online_learning_platform/src/Services/Enrollment/OnlineLearningPlatform.Enrollment.Application/obj/Debug/net10.0/OnlineLearningPlatform.Enrollment.Application.pdb
+/workspaces/online_learning_platform/src/Services/Enrollment/OnlineLearningPlatform.Enrollment.Application/obj/Debug/net10.0/ref/OnlineLearningPlatform.Enrollment.Application.dll

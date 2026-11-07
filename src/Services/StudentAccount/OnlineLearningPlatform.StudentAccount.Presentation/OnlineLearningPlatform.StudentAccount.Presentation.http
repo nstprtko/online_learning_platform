@@ -1,0 +1,6 @@
+@OnlineLearningPlatform.StudentAccount.Presentation_HostAddress = http://localhost:5233
+
+GET {{OnlineLearningPlatform.StudentAccount.Presentation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,41 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Services/" />
+  <Folder Name="/src/Services/CourseCatalog/">
+    <Project Path="src/Services/CourseCatalog/OnlineLearningPlatform.CourseCatalog.Application/OnlineLearningPlatform.CourseCatalog.Application.csproj" />
+    <Project Path="src/Services/CourseCatalog/OnlineLearningPlatform.CourseCatalog.Domain/OnlineLearningPlatform.CourseCatalog.Domain.csproj" />
+    <Project Path="src/Services/CourseCatalog/OnlineLearningPlatform.CourseCatalog.Presentation/OnlineLearningPlatform.CourseCatalog.Presentation.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/CourseManagement/">
+    <Project Path="src/Services/CourseManagement/OnlineLearningPlatform.CourseManagement.Application/OnlineLearningPlatform.CourseManagement.Application.csproj" />
+    <Project Path="src/Services/CourseManagement/OnlineLearningPlatform.CourseManagement.Domain/OnlineLearningPlatform.CourseManagement.Domain.csproj" />
+    <Project Path="src/Services/CourseManagement/OnlineLearningPlatform.CourseManagement.Presentation/OnlineLearningPlatform.CourseManagement.Presentation.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/Enrollment/">
+    <Project Path="src/Services/Enrollment/OnlineLearningPlatform.Enrollment.Application/OnlineLearningPlatform.Enrollment.Application.csproj" />
+    <Project Path="src/Services/Enrollment/OnlineLearningPlatform.Enrollment.Domain/OnlineLearningPlatform.Enrollment.Domain.csproj" />
+    <Project Path="src/Services/Enrollment/OnlineLearningPlatform.Enrollment.Presentation/OnlineLearningPlatform.Enrollment.Presentation.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/StudentAccount/">
+    <Project Path="src/Services/StudentAccount/OnlineLearningPlatform.StudentAccount.Application/OnlineLearningPlatform.StudentAccount.Application.csproj" />
+    <Project Path="src/Services/StudentAccount/OnlineLearningPlatform.StudentAccount.Domain/OnlineLearningPlatform.StudentAccount.Domain.csproj" />
+    <Project Path="src/Services/StudentAccount/OnlineLearningPlatform.StudentAccount.Presentation/OnlineLearningPlatform.StudentAccount.Presentation.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+  <Folder Name="/tests/CourseCatalog/">
+    <Project Path="tests/CourseCatalog/OnlineLearningPlatform.CourseCatalog.Application.Tests/OnlineLearningPlatform.CourseCatalog.Application.Tests.csproj" />
+    <Project Path="tests/CourseCatalog/OnlineLearningPlatform.CourseCatalog.Domain.Tests/OnlineLearningPlatform.CourseCatalog.Domain.Tests.csproj" />
+  </Folder>
+  <Folder Name="/tests/CourseManagement/">
+    <Project Path="tests/CourseManagement/OnlineLearningPlatform.CourseManagement.Application.Tests/OnlineLearningPlatform.CourseManagement.Application.Tests.csproj" />
+    <Project Path="tests/CourseManagement/OnlineLearningPlatform.CourseManagement.Domain.Tests/OnlineLearningPlatform.CourseManagement.Domain.Tests.csproj" />
+  </Folder>
+  <Folder Name="/tests/Enrollment/">
+    <Project Path="tests/Enrollment/OnlineLearningPlatform.Enrollment.Application.Tests/OnlineLearningPlatform.Enrollment.Application.Tests.csproj" />
+    <Project Path="tests/Enrollment/OnlineLearningPlatform.Enrollment.Domain.Tests/OnlineLearningPlatform.Enrollment.Domain.Tests.csproj" />
+  </Folder>
+  <Folder Name="/tests/StudentAccount/">
+    <Project Path="tests/StudentAccount/OnlineLearningPlatform.StudentAccount.Application.Tests/OnlineLearningPlatform.StudentAccount.Application.Tests.csproj" />
+    <Project Path="tests/StudentAccount/OnlineLearningPlatform.StudentAccount.Domain.Tests/OnlineLearningPlatform.StudentAccount.Domain.Tests.csproj" />
+  </Folder>
+</Solution>

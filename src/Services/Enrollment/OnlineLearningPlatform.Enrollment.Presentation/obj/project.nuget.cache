@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "V4gdtARuNg0=",
+  "success": true,
+  "projectFilePath": "/workspaces/online_learning_platform/src/Services/Enrollment/OnlineLearningPlatform.Enrollment.Presentation/OnlineLearningPlatform.Enrollment.Presentation.csproj",
+  "expectedPackageFiles": [
+    "/home/vscode/.nuget/packages/microsoft.aspnetcore.openapi/10.0.14/microsoft.aspnetcore.openapi.10.0.14.nupkg.sha512",
+    "/home/vscode/.nuget/packages/microsoft.openapi/2.12.2/microsoft.openapi.2.12.2.nupkg.sha512"
+  ],
+  "logs": []
+}

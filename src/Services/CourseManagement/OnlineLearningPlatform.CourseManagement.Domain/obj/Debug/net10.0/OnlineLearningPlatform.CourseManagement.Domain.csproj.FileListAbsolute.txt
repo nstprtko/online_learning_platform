@@ -1,0 +1,12 @@
+/workspaces/online_learning_platform/src/Services/CourseManagement/OnlineLearningPlatform.CourseManagement.Domain/bin/Debug/net10.0/OnlineLearningPlatform.CourseManagement.Domain.deps.json
+/workspaces/online_learning_platform/src/Services/CourseManagement/OnlineLearningPlatform.CourseManagement.Domain/bin/Debug/net10.0/OnlineLearningPlatform.CourseManagement.Domain.dll
+/workspaces/online_learning_platform/src/Services/CourseManagement/OnlineLearningPlatform.CourseManagement.Domain/bin/Debug/net10.0/OnlineLearningPlatform.CourseManagement.Domain.pdb
+/workspaces/online_learning_platform/src/Services/CourseManagement/OnlineLearningPlatform.CourseManagement.Domain/obj/Debug/net10.0/OnlineLearningPlatform.CourseManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/online_learning_platform/src/Services/CourseManagement/OnlineLearningPlatform.CourseManagement.Domain/obj/Debug/net10.0/OnlineLearningPlatform.CourseManagement.Domain.AssemblyInfoInputs.cache
+/workspaces/online_learning_platform/src/Services/CourseManagement/OnlineLearningPlatform.CourseManagement.Domain/obj/Debug/net10.0/OnlineLearningPlatform.CourseManagement.Domain.AssemblyInfo.cs
+/workspaces/online_learning_platform/src/Services/CourseManagement/OnlineLearningPlatform.CourseManagement.Domain/obj/Debug/net10.0/OnlineLearningPlatform.CourseManagement.Domain.csproj.CoreCompileInputs.cache
+/workspaces/online_learning_platform/src/Services/CourseManagement/OnlineLearningPlatform.CourseManagement.Domain/obj/Debug/net10.0/OnlineLearningPlatform.CourseManagement.Domain.sourcelink.json
+/workspaces/online_learning_platform/src/Services/CourseManagement/OnlineLearningPlatform.CourseManagement.Domain/obj/Debug/net10.0/OnlineLearningPlatform.CourseManagement.Domain.dll
+/workspaces/online_learning_platform/src/Services/CourseManagement/OnlineLearningPlatform.CourseManagement.Domain/obj/Debug/net10.0/refint/OnlineLearningPlatform.CourseManagement.Domain.dll
+/workspaces/online_learning_platform/src/Services/CourseManagement/OnlineLearningPlatform.CourseManagement.Domain/obj/Debug/net10.0/OnlineLearningPlatform.CourseManagement.Domain.pdb
+/workspaces/online_learning_platform/src/Services/CourseManagement/OnlineLearningPlatform.CourseManagement.Domain/obj/Debug/net10.0/ref/OnlineLearningPlatform.CourseManagement.Domain.dll

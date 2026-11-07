@@ -1,0 +1,12 @@
+/workspaces/online_learning_platform/src/Services/StudentAccount/OnlineLearningPlatform.StudentAccount.Domain/bin/Debug/net10.0/OnlineLearningPlatform.StudentAccount.Domain.deps.json
+/workspaces/online_learning_platform/src/Services/StudentAccount/OnlineLearningPlatform.StudentAccount.Domain/bin/Debug/net10.0/OnlineLearningPlatform.StudentAccount.Domain.dll
+/workspaces/online_learning_platform/src/Services/StudentAccount/OnlineLearningPlatform.StudentAccount.Domain/bin/Debug/net10.0/OnlineLearningPlatform.StudentAccount.Domain.pdb
+/workspaces/online_learning_platform/src/Services/StudentAccount/OnlineLearningPlatform.StudentAccount.Domain/obj/Debug/net10.0/OnlineLearningPlatform.StudentAccount.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/online_learning_platform/src/Services/StudentAccount/OnlineLearningPlatform.StudentAccount.Domain/obj/Debug/net10.0/OnlineLearningPlatform.StudentAccount.Domain.AssemblyInfoInputs.cache
+/workspaces/online_learning_platform/src/Services/StudentAccount/OnlineLearningPlatform.StudentAccount.Domain/obj/Debug/net10.0/OnlineLearningPlatform.StudentAccount.Domain.AssemblyInfo.cs
+/workspaces/online_learning_platform/src/Services/StudentAccount/OnlineLearningPlatform.StudentAccount.Domain/obj/Debug/net10.0/OnlineLearningPlatform.StudentAccount.Domain.csproj.CoreCompileInputs.cache
+/workspaces/online_learning_platform/src/Services/StudentAccount/OnlineLearningPlatform.StudentAccount.Domain/obj/Debug/net10.0/OnlineLearningPlatform.StudentAccount.Domain.sourcelink.json
+/workspaces/online_learning_platform/src/Services/StudentAccount/OnlineLearningPlatform.StudentAccount.Domain/obj/Debug/net10.0/OnlineLearningPlatform.StudentAccount.Domain.dll
+/workspaces/online_learning_platform/src/Services/StudentAccount/OnlineLearningPlatform.StudentAccount.Domain/obj/Debug/net10.0/refint/OnlineLearningPlatform.StudentAccount.Domain.dll
+/workspaces/online_learning_platform/src/Services/StudentAccount/OnlineLearningPlatform.StudentAccount.Domain/obj/Debug/net10.0/OnlineLearningPlatform.StudentAccount.Domain.pdb
+/workspaces/online_learning_platform/src/Services/StudentAccount/OnlineLearningPlatform.StudentAccount.Domain/obj/Debug/net10.0/ref/OnlineLearningPlatform.StudentAccount.Domain.dll

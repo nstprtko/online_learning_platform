@@ -1,0 +1,12 @@
+/workspaces/online_learning_platform/src/Services/CourseCatalog/OnlineLearningPlatform.CourseCatalog.Domain/bin/Debug/net10.0/OnlineLearningPlatform.CourseCatalog.Domain.deps.json
+/workspaces/online_learning_platform/src/Services/CourseCatalog/OnlineLearningPlatform.CourseCatalog.Domain/bin/Debug/net10.0/OnlineLearningPlatform.CourseCatalog.Domain.dll
+/workspaces/online_learning_platform/src/Services/CourseCatalog/OnlineLearningPlatform.CourseCatalog.Domain/bin/Debug/net10.0/OnlineLearningPlatform.CourseCatalog.Domain.pdb
+/workspaces/online_learning_platform/src/Services/CourseCatalog/OnlineLearningPlatform.CourseCatalog.Domain/obj/Debug/net10.0/OnlineLearningPlatform.CourseCatalog.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/online_learning_platform/src/Services/CourseCatalog/OnlineLearningPlatform.CourseCatalog.Domain/obj/Debug/net10.0/OnlineLearningPlatform.CourseCatalog.Domain.AssemblyInfoInputs.cache
+/workspaces/online_learning_platform/src/Services/CourseCatalog/OnlineLearningPlatform.CourseCatalog.Domain/obj/Debug/net10.0/OnlineLearningPlatform.CourseCatalog.Domain.AssemblyInfo.cs
+/workspaces/online_learning_platform/src/Services/CourseCatalog/OnlineLearningPlatform.CourseCatalog.Domain/obj/Debug/net10.0/OnlineLearningPlatform.CourseCatalog.Domain.csproj.CoreCompileInputs.cache
+/workspaces/online_learning_platform/src/Services/CourseCatalog/OnlineLearningPlatform.CourseCatalog.Domain/obj/Debug/net10.0/OnlineLearningPlatform.CourseCatalog.Domain.sourcelink.json
+/workspaces/online_learning_platform/src/Services/CourseCatalog/OnlineLearningPlatform.CourseCatalog.Domain/obj/Debug/net10.0/OnlineLearningPlatform.CourseCatalog.Domain.dll
+/workspaces/online_learning_platform/src/Services/CourseCatalog/OnlineLearningPlatform.CourseCatalog.Domain/obj/Debug/net10.0/refint/OnlineLearningPlatform.CourseCatalog.Domain.dll
+/workspaces/online_learning_platform/src/Services/CourseCatalog/OnlineLearningPlatform.CourseCatalog.Domain/obj/Debug/net10.0/OnlineLearningPlatform.CourseCatalog.Domain.pdb
+/workspaces/online_learning_platform/src/Services/CourseCatalog/OnlineLearningPlatform.CourseCatalog.Domain/obj/Debug/net10.0/ref/OnlineLearningPlatform.CourseCatalog.Domain.dll

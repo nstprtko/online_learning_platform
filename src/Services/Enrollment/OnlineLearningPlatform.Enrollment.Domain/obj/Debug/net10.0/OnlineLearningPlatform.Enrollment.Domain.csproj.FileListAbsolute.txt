@@ -1,0 +1,12 @@
+/workspaces/online_learning_platform/src/Services/Enrollment/OnlineLearningPlatform.Enrollment.Domain/bin/Debug/net10.0/OnlineLearningPlatform.Enrollment.Domain.deps.json
+/workspaces/online_learning_platform/src/Services/Enrollment/OnlineLearningPlatform.Enrollment.Domain/bin/Debug/net10.0/OnlineLearningPlatform.Enrollment.Domain.dll
+/workspaces/online_learning_platform/src/Services/Enrollment/OnlineLearningPlatform.Enrollment.Domain/bin/Debug/net10.0/OnlineLearningPlatform.Enrollment.Domain.pdb
+/workspaces/online_learning_platform/src/Services/Enrollment/OnlineLearningPlatform.Enrollment.Domain/obj/Debug/net10.0/OnlineLearningPlatform.Enrollment.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/online_learning_platform/src/Services/Enrollment/OnlineLearningPlatform.Enrollment.Domain/obj/Debug/net10.0/OnlineLearningPlatform.Enrollment.Domain.AssemblyInfoInputs.cache
+/workspaces/online_learning_platform/src/Services/Enrollment/OnlineLearningPlatform.Enrollment.Domain/obj/Debug/net10.0/OnlineLearningPlatform.Enrollment.Domain.AssemblyInfo.cs
+/workspaces/online_learning_platform/src/Services/Enrollment/OnlineLearningPlatform.Enrollment.Domain/obj/Debug/net10.0/OnlineLearningPlatform.Enrollment.Domain.csproj.CoreCompileInputs.cache
+/workspaces/online_learning_platform/src/Services/Enrollment/OnlineLearningPlatform.Enrollment.Domain/obj/Debug/net10.0/OnlineLearningPlatform.Enrollment.Domain.sourcelink.json
+/workspaces/online_learning_platform/src/Services/Enrollment/OnlineLearningPlatform.Enrollment.Domain/obj/Debug/net10.0/OnlineLearningPlatform.Enrollment.Domain.dll
+/workspaces/online_learning_platform/src/Services/Enrollment/OnlineLearningPlatform.Enrollment.Domain/obj/Debug/net10.0/refint/OnlineLearningPlatform.Enrollment.Domain.dll
+/workspaces/online_learning_platform/src/Services/Enrollment/OnlineLearningPlatform.Enrollment.Domain/obj/Debug/net10.0/OnlineLearningPlatform.Enrollment.Domain.pdb
+/workspaces/online_learning_platform/src/Services/Enrollment/OnlineLearningPlatform.Enrollment.Domain/obj/Debug/net10.0/ref/OnlineLearningPlatform.Enrollment.Domain.dll

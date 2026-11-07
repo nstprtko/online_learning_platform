@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "OnlineLearningPlatform.StudentAccount.Application/1.0.0": {
+        "dependencies": {
+          "OnlineLearningPlatform.StudentAccount.Domain": "1.0.0"
+        },
+        "runtime": {
+          "OnlineLearningPlatform.StudentAccount.Application.dll": {}
+        }
+      },
+      "OnlineLearningPlatform.StudentAccount.Domain/1.0.0": {
+        "runtime": {
+          "OnlineLearningPlatform.StudentAccount.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OnlineLearningPlatform.StudentAccount.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OnlineLearningPlatform.StudentAccount.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

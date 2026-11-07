@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "OnlineLearningPlatform.CourseCatalog.Application/1.0.0": {
+        "dependencies": {
+          "OnlineLearningPlatform.CourseCatalog.Domain": "1.0.0"
+        },
+        "runtime": {
+          "OnlineLearningPlatform.CourseCatalog.Application.dll": {}
+        }
+      },
+      "OnlineLearningPlatform.CourseCatalog.Domain/1.0.0": {
+        "runtime": {
+          "OnlineLearningPlatform.CourseCatalog.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OnlineLearningPlatform.CourseCatalog.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OnlineLearningPlatform.CourseCatalog.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
