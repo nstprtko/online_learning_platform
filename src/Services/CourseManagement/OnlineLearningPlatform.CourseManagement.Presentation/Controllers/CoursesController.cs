@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using OnlineLearningPlatform.CourseManagement.Application.Courses;
 using OnlineLearningPlatform.CourseManagement.Domain.Courses;
+using OnlineLearningPlatform.CourseManagement.Domain.Exceptions;
 using OnlineLearningPlatform.CourseManagement.Presentation.Contracts;
 
 namespace OnlineLearningPlatform.CourseManagement.Presentation.Controllers;
@@ -31,16 +32,23 @@ public sealed class CoursesController : ControllerBase
         [FromBody] CreateCourseRequest request,
         CancellationToken cancellationToken)
     {
-        Course course = await _createCourseService.ExecuteAsync(
-            request.Title, cancellationToken);
-
-        return Created($"/api/courses/{course.Id}", new
+        try
         {
-            course.Id,
-            course.Title,
-            course.Description,
-            course.IsPublished
-        });
+            Course course = await _createCourseService.ExecuteAsync(
+                request.Title, cancellationToken);
+
+            return Created($"/api/courses/{course.Id}", new
+            {
+                course.Id,
+                course.Title,
+                course.Description,
+                course.IsPublished
+            });
+        }
+        catch (ArgumentException)
+        {
+            return BadRequest();
+        }
     }
 
     [HttpPut("{id:guid}/description")]
@@ -49,10 +57,21 @@ public sealed class CoursesController : ControllerBase
         [FromBody] SetCourseDescriptionRequest request,
         CancellationToken cancellationToken)
     {
-        await _setDescriptionService.ExecuteAsync(
-            id, request.Description, cancellationToken);
+        try
+        {
+            await _setDescriptionService.ExecuteAsync(
+                id, request.Description, cancellationToken);
 
-        return NoContent();
+            return NoContent();
+        }
+        catch (CourseNotFoundException)
+        {
+            return NotFound();
+        }
+        catch (ArgumentException)
+        {
+            return BadRequest();
+        }
     }
 
     [HttpPost("{id:guid}/content")]
@@ -61,10 +80,25 @@ public sealed class CoursesController : ControllerBase
         [FromBody] AddCourseContentRequest request,
         CancellationToken cancellationToken)
     {
-        await _addContentService.ExecuteAsync(
-            id, request.Title, cancellationToken);
+        try
+        {
+            await _addContentService.ExecuteAsync(
+                id, request.Title, cancellationToken);
 
-        return NoContent();
+            return NoContent();
+        }
+        catch (CourseNotFoundException)
+        {
+            return NotFound();
+        }
+        catch (CourseContentException)
+        {
+            return BadRequest();
+        }
+        catch (ArgumentException)
+        {
+            return BadRequest();
+        }
     }
 
     [HttpPost("{id:guid}/publish")]
@@ -72,8 +106,19 @@ public sealed class CoursesController : ControllerBase
         Guid id,
         CancellationToken cancellationToken)
     {
-        await _publishCourseService.ExecuteAsync(id, cancellationToken);
+        try
+        {
+            await _publishCourseService.ExecuteAsync(id, cancellationToken);
 
-        return NoContent();
+            return NoContent();
+        }
+        catch (CourseNotFoundException)
+        {
+            return NotFound();
+        }
+        catch (CourseCannotBePublishedException)
+        {
+            return BadRequest();
+        }
     }
 }
