@@ -28,7 +28,10 @@ public sealed class CourseCatalogController : ControllerBase
         CancellationToken cancellationToken)
     {
         var listing = await _createService.ExecuteAsync(
-            request.CourseId, request.Title, request.Description, cancellationToken);
+            request.CourseId,
+            request.Title,
+            request.Description,
+            cancellationToken);
 
         return Created($"/api/catalog/{listing.Id}", listing);
     }
@@ -38,7 +41,9 @@ public sealed class CourseCatalogController : ControllerBase
         [FromQuery] string searchTerm = "",
         CancellationToken cancellationToken = default)
     {
-        var listings = await _searchService.ExecuteAsync(searchTerm, cancellationToken);
+        var listings = await _searchService.ExecuteAsync(
+            searchTerm, cancellationToken);
+
         return Ok(listings);
     }
 

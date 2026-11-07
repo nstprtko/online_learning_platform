@@ -1,23 +1,24 @@
+using OnlineLearningPlatform.StudentAccount.Application.Interfaces;
+using OnlineLearningPlatform.StudentAccount.Application.Students;
+using OnlineLearningPlatform.StudentAccount.Presentation.Infrastructure;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
+
+builder.Services.AddSingleton<IStudentRepository, InMemoryStudentRepository>();
+
+builder.Services.AddScoped<RegisterStudentService>();
+builder.Services.AddScoped<UpdateStudentProfileService>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
-{
     app.MapOpenApi();
-}
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();
