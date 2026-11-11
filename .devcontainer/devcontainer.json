@@ -1,0 +1,57 @@
+{
+  "name": "dotnet-10-dev-with-infra",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "dev",
+  "workspaceFolder": "/workspaces",
+  "runServices": [
+    "mssql",
+    "kafka",
+    "minio"
+  ],
+  "shutdownAction": "stopCompose",
+  "forwardPorts": [
+    1433,
+    9094,
+    9000,
+    9001
+  ],
+  "portsAttributes": {
+    "1433": {
+      "label": "MSSQL"
+    },
+    "9094": {
+      "label": "Kafka (host)"
+    },
+    "9000": {
+      "label": "MinIO API"
+    },
+    "9001": {
+      "label": "MinIO Console"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-dotnettools.csdevkit",
+        "ms-dotnettools.csharp",
+        "ms-dotnettools.vscode-dotnet-runtime",
+        "ms-dotnettools.dotnet-interactive-vscode",
+        "ms-azuretools.vscode-docker",
+        "ms-mssql.mssql",
+        "eamodio.gitlens",
+        "editorconfig.editorconfig"
+      ],
+      "settings": {
+        "dotnet.defaultSolution": "**/*.slnx",
+        "omnisharp.useModernNet": true,
+        "csharp.suppressDotnetInstallWarning": true,
+        "files.exclude": {
+          "**/bin": true,
+          "**/obj": true
+        }
+      }
+    }
+  },
+  "remoteUser": "root",
+  "postCreateCommand": "dotnet --info"
+}

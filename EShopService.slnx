@@ -1,3 +1,30 @@
 <Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Services/" />
+  <Folder Name="/src/Services/Assessment/">
+    <Project Path="src/Services/Assessment/OnlineLearningPlatform.Assessment.Application/OnlineLearningPlatform.Assessment.Application.csproj" />
+    <Project Path="src/Services/Assessment/OnlineLearningPlatform.Assessment.Domain/OnlineLearningPlatform.Assessment.Domain.csproj" />
+    <Project Path="src/Services/Assessment/OnlineLearningPlatform.Assessment.Presentation/OnlineLearningPlatform.Assessment.Presentation.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/Learning/">
+    <Project Path="src/Services/Learning/OnlineLearningPlatform.Learning.Application/OnlineLearningPlatform.Learning.Application.csproj" />
+    <Project Path="src/Services/Learning/OnlineLearningPlatform.Learning.Domain/OnlineLearningPlatform.Learning.Domain.csproj" />
+    <Project Path="src/Services/Learning/OnlineLearningPlatform.Learning.Presentation/OnlineLearningPlatform.Learning.Presentation.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/Payment/">
+    <Project Path="src/Services/Payment/OnlineLearningPlatform.Payment.Application/OnlineLearningPlatform.Payment.Application.csproj" />
+    <Project Path="src/Services/Payment/OnlineLearningPlatform.Payment.Domain/OnlineLearningPlatform.Payment.Domain.csproj" />
+    <Project Path="src/Services/Payment/OnlineLearningPlatform.Payment.Presentation/OnlineLearningPlatform.Payment.Presentation.csproj" />
+  </Folder>
+  <Folder Name="/src/Services/ProgressAndCertification/">
+    <Project Path="src/Services/ProgressAndCertification/OnlineLearningPlatform.ProgressAndCertification.Application/OnlineLearningPlatform.ProgressAndCertification.Application.csproj" />
+    <Project Path="src/Services/ProgressAndCertification/OnlineLearningPlatform.ProgressAndCertification.Domain/OnlineLearningPlatform.ProgressAndCertification.Domain.csproj" />
+    <Project Path="src/Services/ProgressAndCertification/OnlineLearningPlatform.ProgressAndCertification.Presentation/OnlineLearningPlatform.ProgressAndCertification.Presentation.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+  <Folder Name="/tests/Payment/">
+    <Project Path="tests/Payment/OnlineLearningPlatform.Payment.Application.Tests/OnlineLearningPlatform.Payment.Application.Tests.csproj" />
+    <Project Path="tests/Payment/OnlineLearningPlatform.Payment.Domain.Tests/OnlineLearningPlatform.Payment.Domain.Tests.csproj" />
+  </Folder>
   <Project Path="EShopService/EShopService.csproj" />
 </Solution>
