@@ -3,3 +3,7 @@
 .vs/
 *.user
 *.suo
+
+# .NET build outputs
+**/bin/
+**/obj/
