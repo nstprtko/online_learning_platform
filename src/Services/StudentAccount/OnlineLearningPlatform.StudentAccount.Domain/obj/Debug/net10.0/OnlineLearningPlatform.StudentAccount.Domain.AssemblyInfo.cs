@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OnlineLearningPlatform.StudentAccount.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87761673f666212a75c2e30afe21f11d66e5821f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8829565e902b168ddf3bcdf40bed5bd7a259373")]
 [assembly: System.Reflection.AssemblyProductAttribute("OnlineLearningPlatform.StudentAccount.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OnlineLearningPlatform.StudentAccount.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
