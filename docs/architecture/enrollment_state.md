@@ -1,5 +1,3 @@
 # Enrollment State Machine
 
-![Enrollment State Machine]
-
-(Lab 2.png)
+![Enrollment State Machine](Lab%202.png)

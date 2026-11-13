@@ -2,7 +2,5 @@
 
 ## 1. Enrollment Aggregate Design Canvas
 
-![Enrollment Aggregate Design Canvas]
-
-(Lab 2.png)
+![Enrollment Aggregate Design Canvas](Lab%202.png)
 
