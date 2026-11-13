@@ -1,3 +1,4 @@
+
 using Microsoft.AspNetCore.Mvc;
 using OnlineLearningPlatform.CourseManagement.Application.Courses;
 using OnlineLearningPlatform.CourseManagement.Domain.Courses;
@@ -14,17 +15,26 @@ public sealed class CoursesController : ControllerBase
     private readonly SetCourseDescriptionService _setDescriptionService;
     private readonly AddCourseContentService _addContentService;
     private readonly PublishCourseService _publishCourseService;
+    private readonly GetAllCoursesService _getAllCoursesService;
+    private readonly GetCourseByIdService _getCourseByIdService;
+    private readonly DeleteCourseService _deleteCourseService;
 
     public CoursesController(
         CreateCourseService createCourseService,
         SetCourseDescriptionService setDescriptionService,
         AddCourseContentService addContentService,
-        PublishCourseService publishCourseService)
+        PublishCourseService publishCourseService,
+        GetAllCoursesService getAllCoursesService,
+        GetCourseByIdService getCourseByIdService,
+        DeleteCourseService deleteCourseService)
     {
         _createCourseService = createCourseService;
         _setDescriptionService = setDescriptionService;
         _addContentService = addContentService;
         _publishCourseService = publishCourseService;
+        _getAllCoursesService = getAllCoursesService;
+        _getCourseByIdService = getCourseByIdService;
+        _deleteCourseService = deleteCourseService;
     }
 
     [HttpPost]
@@ -48,6 +58,56 @@ public sealed class CoursesController : ControllerBase
         catch (ArgumentException)
         {
             return BadRequest();
+        }
+    }
+
+    [HttpGet]
+    public async Task<IActionResult> GetAll(
+        CancellationToken cancellationToken)
+    {
+        var courses = await _getAllCoursesService.ExecuteAsync(
+            cancellationToken);
+
+        return Ok(courses.Select(course => new
+        {
+            course.Id,
+            course.Title,
+            course.Description,
+            course.IsPublished,
+            Content = course.Content.Select(item => new
+            {
+                item.Id,
+                item.Title
+            })
+        }));
+    }
+
+    [HttpGet("{id:guid}")]
+    public async Task<IActionResult> GetById(
+        Guid id,
+        CancellationToken cancellationToken)
+    {
+        try
+        {
+            var course = await _getCourseByIdService.ExecuteAsync(
+                id, cancellationToken);
+
+            return Ok(new
+            {
+                course.Id,
+                course.Title,
+                course.Description,
+                course.IsPublished,
+                Content = course.Content.Select(item => new
+                {
+                    item.Id,
+                    item.Title
+                })
+            });
+        }
+        catch (CourseNotFoundException)
+        {
+            return NotFound();
         }
     }
 
@@ -119,6 +179,23 @@ public sealed class CoursesController : ControllerBase
         catch (CourseCannotBePublishedException)
         {
             return BadRequest();
+        }
+    }
+
+    [HttpDelete("{id:guid}")]
+    public async Task<IActionResult> Delete(
+        Guid id,
+        CancellationToken cancellationToken)
+    {
+        try
+        {
+            await _deleteCourseService.ExecuteAsync(id, cancellationToken);
+
+            return NoContent();
+        }
+        catch (CourseNotFoundException)
+        {
+            return NotFound();
         }
     }
 }

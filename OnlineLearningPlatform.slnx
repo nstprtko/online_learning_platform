@@ -9,6 +9,7 @@
   <Folder Name="/src/Services/CourseManagement/">
     <Project Path="src/Services/CourseManagement/OnlineLearningPlatform.CourseManagement.Application/OnlineLearningPlatform.CourseManagement.Application.csproj" />
     <Project Path="src/Services/CourseManagement/OnlineLearningPlatform.CourseManagement.Domain/OnlineLearningPlatform.CourseManagement.Domain.csproj" />
+    <Project Path="src/Services/CourseManagement/OnlineLearningPlatform.CourseManagement.Infrastructure/OnlineLearningPlatform.CourseManagement.Infrastructure.csproj" />
     <Project Path="src/Services/CourseManagement/OnlineLearningPlatform.CourseManagement.Presentation/OnlineLearningPlatform.CourseManagement.Presentation.csproj" />
   </Folder>
   <Folder Name="/src/Services/Enrollment/">
